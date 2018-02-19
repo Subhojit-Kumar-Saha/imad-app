@@ -4,3 +4,9 @@ console.log('Loaded!');
 var element = document.getElementById('main-text');
 
 element.innerHTML = "HI SUBHOJIT";
+
+//Change the image style
+var img = document.getElementById('image');
+img.onClick = function() {
+    img.style.marginLeft = '100px';
+};
