@@ -7,6 +7,8 @@ element.innerHTML = "HI SUBHOJIT";
 
 //Change the image style
 var img = document.getElementById('image');
+if(mouseIsPressed) {
 img.onclick = function() {
     img.style.marginLeft = '100px';
 };
+}
